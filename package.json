@@ -1,0 +1,15 @@
+{
+  "name": "delightdecors",
+  "version": "1.0.0",
+  "description": "Online furniture store application built with the MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Merlyn Claudia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
