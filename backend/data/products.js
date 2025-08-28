@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Modern Linen Sofa',
     category: 'Sofas',
     price: 799.99,
@@ -14,7 +13,6 @@ const products = [
     tags: ['modern', 'living room', 'fabric'],
   },
   {
-    _id: '2',
     name: 'Rustic Coffee Table',
     category: 'Tables',
     price: 299.0,
@@ -27,7 +25,6 @@ const products = [
     tags: ['rustic', 'wood', 'handmade'],
   },
   {
-    _id: '3',
     name: 'Velvet Accent Chair',
     category: 'Chairs',
     price: 199.5,
@@ -41,7 +38,6 @@ const products = [
     tags: ['velvet', 'accent', 'reading'],
   },
   {
-    _id: '4',
     name: 'Minimalist Floor Lamp',
     category: 'Decor',
     price: 89.99,
@@ -55,7 +51,6 @@ const products = [
     tags: ['lighting', 'modern', 'minimal'],
   },
   {
-    _id: '5',
     name: 'Abstract Wall Art Set',
     category: 'Decor',
     price: 59.99,
@@ -69,7 +64,6 @@ const products = [
     tags: ['art', 'canvas', 'abstract'],
   },
   {
-    _id: '6',
     name: 'Scandinavian Side Table',
     category: 'Tables',
     price: 149.99,
@@ -82,7 +76,6 @@ const products = [
     tags: ['Scandinavian', 'light oak', 'minimal'],
   },
   {
-    _id: '7',
     name: 'Mid-Century Modern Armchair',
     category: 'Chairs',
     price: 349.0,
@@ -95,7 +88,6 @@ const products = [
     tags: ['mid-century', 'vintage', 'wood'],
   },
   {
-    _id: '8',
     name: 'Industrial Bar Stools (Set of 2)',
     category: 'Chairs',
     price: 239.99,
@@ -108,7 +100,6 @@ const products = [
     tags: ['industrial', 'metal', 'bar'],
   },
   {
-    _id: '9',
     name: 'Linen Dining Chair (Set of 4)',
     category: 'Chairs',
     price: 499.99,
@@ -121,7 +112,6 @@ const products = [
     tags: ['dining', 'linen', 'set'],
   },
   {
-    _id: '10',
     name: 'Glass Top Console Table',
     category: 'Tables',
     price: 259.0,
@@ -134,7 +124,6 @@ const products = [
     tags: ['modern', 'glass', 'entryway'],
   },
   {
-    _id: '11',
     name: 'Wicker Storage Basket',
     category: 'Decor',
     price: 45.0,
@@ -147,7 +136,6 @@ const products = [
     tags: ['storage', 'handmade', 'eco'],
   },
   {
-    _id: '12',
     name: 'Marble Candle Holder Set',
     category: 'Decor',
     price: 39.99,
@@ -160,7 +148,6 @@ const products = [
     tags: ['marble', 'brass', 'elegant'],
   },
   {
-    _id: '13',
     name: 'Rustic Wall Shelf',
     category: 'Decor',
     price: 89.0,
@@ -173,7 +160,6 @@ const products = [
     tags: ['rustic', 'wood', 'shelving'],
   },
   {
-    _id: '14',
     name: 'Modern Area Rug (5x7 ft)',
     category: 'Decor',
     price: 129.99,
@@ -186,7 +172,6 @@ const products = [
     tags: ['rug', 'textile', 'contemporary'],
   },
   {
-    _id: '15',
     name: 'Eames-Style Molded Plastic Chair',
     category: 'Chairs',
     price: 89.99,
@@ -199,7 +184,6 @@ const products = [
     tags: ['classic', 'plastic', 'Scandinavian'],
   },
   {
-    _id: '16',
     name: 'Mirrored Nightstand',
     category: 'Tables',
     price: 179.5,
@@ -212,7 +196,6 @@ const products = [
     tags: ['mirrored', 'glam', 'bedroom'],
   },
   {
-    _id: '17',
     name: 'Concrete Outdoor Stool',
     category: 'Decor',
     price: 59.99,
@@ -225,7 +208,6 @@ const products = [
     tags: ['outdoor', 'concrete', 'durable'],
   },
   {
-    _id: '18',
     name: 'Adjustable TV Stand',
     category: 'Tables',
     price: 349.99,
@@ -238,7 +220,6 @@ const products = [
     tags: ['media', 'adjustable', 'modern'],
   },
   {
-    _id: '19',
     name: 'Velvet Pouf Ottoman',
     category: 'Decor',
     price: 49.99,
@@ -251,7 +232,6 @@ const products = [
     tags: ['velvet', 'ottoman', 'accent'],
   },
   {
-    _id: '20',
     name: 'Minimalist Desk Lamp',
     category: 'Decor',
     price: 59.0,
