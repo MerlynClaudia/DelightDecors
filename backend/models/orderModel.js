@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { timestamp } from 'rxjs';
 
 const orderSchema = mongoose.Schema(
   {
@@ -27,7 +26,7 @@ const orderSchema = mongoose.Schema(
       postalCode: { type: String, required: true },
       country: { type: String, required: true },
     },
-    pymentMethod: {
+    paymentMethod: {
       type: String,
       required: true,
     },
@@ -61,6 +60,9 @@ const orderSchema = mongoose.Schema(
       type: Boolean,
       required: true,
       default: false,
+    },
+    paidAt: {
+      type: Date,
     },
     isDelivered: {
       type: Boolean,
